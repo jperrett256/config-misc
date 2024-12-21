@@ -1,3 +1,9 @@
 [submodule "nvim-config"]
 	path = nvim-config
 	url = https://github.com/jperrett256/nvim-config
+[submodule "vcvarsall-gen"]
+	path = vcvarsall-gen
+	url = https://github.com/jperrett256/vcvarsall-gen.git
+[submodule "batch-wrapper"]
+	path = batch-wrapper
+	url = https://github.com/jperrett256/batch-wrapper
