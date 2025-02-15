@@ -50,6 +50,10 @@ RefreshPath
 # TODO if added to path (or present in path and default env not already present in conda env list):
 # cmd.exe /c conda create -n default python numpy pandas scipy # PyPDF2 python-pptx
 
+$downloads_path = (New-Object -ComObject Shell.Application).Namespace('shell:Downloads').Self.Path
+
+AddToPath "$downloads_path\Utilities\ffmpeg\bin"
+
 # copy sudo.ps1, where.ps1, refresh_path.ps1 to $user_profile/Utilities/_scripts?
 
 
